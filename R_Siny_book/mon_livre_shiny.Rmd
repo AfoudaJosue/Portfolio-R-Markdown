@@ -1,0 +1,84 @@
+---
+title: 'Développement Web en Data Science avec R Shiny sans HTML, CSS, PHP ni JavaScript'
+author: "Josué Afouda"
+date: "10/03/2021"
+output:
+  html_document:
+      toc: yes
+      toc_float:
+        collapsed: no
+        smooth_scroll: no
+      toc_depth: 3
+      number_sections: yes
+  word_document:
+    toc: yes
+    toc_depth: '3'
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(shiny)
+library(factoextra)
+library(Rtsne)
+library(PerformanceAnalytics)
+library(quantmod)
+library(tseries)
+```
+
+![](https://github.com/AfoudaJosue/Portfolio-R-Markdown/raw/main/images/couverture_png.png)
+
+# Généralités
+
+```{r child="./fiches/generalites.rmd"}
+```
+
+\newpage
+
+# Chapitre 1 : Pourquoi apprendre à créer des applications web avec Shiny ?
+
+```{r child="./fiches/chapitre1.rmd"}
+```
+
+\newpage
+
+# Chapitre 2 : Fondamentaux de R Shiny
+
+```{r child="./fiches/chapitre2.rmd"}
+```
+
+\newpage
+
+# Chapitre 3 : Fonctionnalités avancées de Shiny
+
+```{r child="./fiches/chapitre3.rmd"}
+```
+
+\newpage
+
+# Chapitre 4 : Développement web d'une application Shiny de Visualisation de nuage de mots
+
+```{r child="./fiches/chapitre4.rmd"}
+```
+
+\newpage
+
+# Chapitre 5 : Développement web d'une application R Shiny pour la segmentation des données par l'algorithme des k-moyennes et la réduction de dimensionnalité
+
+```{r child="./fiches/chapitre5.rmd"}
+```
+
+\newpage
+
+# Chapitre 6 : Développement web d'une application pour l'analyse et l'optimisation de portefeuille d'actifs boursiers
+
+```{r child="./fiches/chapitre6.rmd"}
+```
+
+# Mes autres livres
+
+```{r child="./fiches/autres_livres.rmd"}
+```
+
