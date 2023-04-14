@@ -1,0 +1,51 @@
+---
+title: "Apprendre à programmer avec R et RStudio : Manuel de cours et exercices corrigés pour débutants"
+author: "Josué Afouda"
+date: "26/12/2021"
+output:
+  html_document:
+      toc: yes
+      toc_float:
+        collapsed: no
+        smooth_scroll: no
+      toc_depth: 3
+      number_sections: yes
+  word_document:
+    toc: yes
+    toc_depth: '3'
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+---
+
+![](https://github.com/AfoudaJosue/Portfolio-R-Markdown/raw/main/images/cover_3d.png)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, error=TRUE)
+```
+
+
+```{r child="./fiches/tuto_installation_R_RStudio.rmd"}
+```
+
+\newpage
+
+```{r child="./fiches/Formation_R_partie1.rmd"}
+```
+
+\newpage
+
+```{r child="./fiches/Formation_R_partie2.rmd"}
+```
+
+\newpage
+
+```{r child="./fiches/Formation_R_partie3.rmd"}
+```
+
+\newpage
+
+```{r child="./fiches/autres_livres.rmd"}
+```
+
+\newpage
